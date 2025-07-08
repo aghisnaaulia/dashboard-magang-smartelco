@@ -1,0 +1,143 @@
+.table-container {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.table-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.actions button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+  background-color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: left;
+}
+
+th {
+  padding: 12px 8px;
+  background-color: #f4f4f4;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+td button {
+  padding: 4px 10px;
+  font-size: 13px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+td button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+td button:first-of-type:hover {
+  background-color: #0056b3;
+}
+
+td button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+td button:last-of-type:hover {
+  background-color: #a61d2d;
+}
+
+.form-popup {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-popup h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.form-popup .form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.form-popup input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-actions button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-actions button:first-of-type:hover {
+  background-color: #0056b3;
+}
+
+.form-actions button:last-of-type {
+  background-color: #999;
+  color: white;
+}
+
+.form-actions button:last-of-type:hover {
+  background-color: #666;
+}
